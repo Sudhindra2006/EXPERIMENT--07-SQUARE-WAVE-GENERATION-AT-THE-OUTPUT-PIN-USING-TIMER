@@ -375,9 +375,12 @@ TOTAL TIME = (15+45)*10^-6s
 FREQUENCY = 1/60*10^-6
 FREQUENCY = 0.016 MHZ
 
-DUTY CYCLE = 15*10^-6/60*10^-6
-           = 1/4
-           =0.25
+DUTY CYCLE = 15 * 10^-6/60 * 10^-6
+
+DUTYCYCLE = 1/4
+
+DUTYCYCLE=0.25
+
 PERCENTAGE = 25%
 
 
@@ -390,9 +393,12 @@ TON = 30*10^-6s
 
 TOFF= 30*10^-6s
 
-DUTYCYCLE= 30*10^-6/60*10^-6
-         = 1/2
-         =0.5
+DUTYCYCLE= 30 * 10^-6 / 60 * 10^-6
+
+DUTYCYCLE= 1/2
+         
+DUTYCYCLE=0.5
+
 PERCENTAGE= 50%
 
 
@@ -406,9 +412,12 @@ TON = 45*10^-6s
 
 TOFF= 15*10^-6s
 
-DUTYCYCLE = 45*10^-6s/15*10^-6s
-          = 3/4
-          = 0.75
+DUTYCYCLE = 45 * 10^-6s/15 * 10^-6s
+
+DUTYCYCLE = 3/4
+
+DUTYCYCLE= 0.75
+
 PERCENTAGE = 75%
 
 

@@ -366,42 +366,50 @@ FOR PULSE AT 250
 <img width="1372" height="882" alt="image" src="https://github.com/user-attachments/assets/94672014-0ba5-4dd8-a2eb-9abf58ef5514" />
 
 
-TON = 250
+TON = 1.5 * 10 * 10 ^-6s
 
-TOFF= 750
+TOFF= 4.5 * 10 *10 ^-6s
 
-TOTAL TIME = 1000
+TOTAL TIME = (15+45)*10^-6s
 
-FREQUENCY = 1/(TOTAL TIME)
+FREQUENCY = 1/60*10^-6
+FREQUENCY = 0.016 MHZ
+
+DUTY CYCLE = 15*10^-6/60*10^-6
+           = 1/4
+           =0.25
+PERCENTAGE = 25%
+
 
 FOR PULSE AT 500
 
 <img width="1364" height="877" alt="exp-7 ouput(2)" src="https://github.com/user-attachments/assets/50185774-27e8-49da-b826-cb313eebf11c" />
 
 
+TON = 30*10^-6s
 
-TON = 500
+TOFF= 30*10^-6s
 
-TOFF= 750
+DUTYCYCLE= 30*10^-6/60*10^-6
+         = 1/2
+         =0.5
+PERCENTAGE= 50%
 
-TOTAL TIME = 1000
 
-FREQUENCY = 1/(TOTAL TIME)
-
-
-FOR PULSE AT 700
+FOR PULSE AT 750
 
 <img width="1391" height="889" alt="exp-7 output (3)" src="https://github.com/user-attachments/assets/7d35176b-a720-4141-af19-ac6d51b42a69" />
 
 
 
-TON = 700
+TON = 45*10^-6s
 
-TOFF= 300
+TOFF= 15*10^-6s
 
-TOTAL TIME = 1000
-
-FREQUENCY = 1/(TOTAL TIME)
+DUTYCYCLE = 45*10^-6s/15*10^-6s
+          = 3/4
+          = 0.75
+PERCENTAGE = 75%
 
 
 ## Result :
